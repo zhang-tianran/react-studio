@@ -1,9 +1,43 @@
 /* Add styling for your page here */
 
 .App {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+button {
+    border: none;
+    background-color: rgb(255, 209, 194);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.col-bg {
+    margin-left: 10px;
+    flex: 2;
+}
+
+.col-sm {
+    flex: 1;
+}
+
+.cart {
+    padding-left: 20px;
+    background-color: rgb(223, 239, 239);
+}
+
+.bakery {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .BakeryItem {
-  
+    background-color:cornsilk;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.BakeryItem img {
+    width: 200px;
 }
